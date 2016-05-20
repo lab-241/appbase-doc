@@ -1,0 +1,69 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Getting started with App Base\n\n\nApp Base is your production ready mobile app foundation.\nIts the result of two framworks combined to create a powerfull fullsatck js ecosystem.\n\n\nApp Base projects\n\n\n\n\n\n\n\n\nNeed\n\n\nSolution\n\n\nAppBase repo\n\n\n\n\n\n\n\n\n\n\nREST API\n\n\nLoopBack Framework\n\n\nAppbase server\n\n\n\n\n\n\nMobile App\n\n\nIonic Framework\n\n\nAppbase ionic\n\n\n\n\n\n\nAdmin Dashboard\n\n\nNG-admin\n\n\nAppbase server\n\n\n\n\n\n\n\n\nDevelopment quick start\n\n\nPrerequites\n\n\n\n\nNodeJs\n\n\n\n\nInstall dev tools\n\n\nApp base is built on top of ionic (who use cordova) and strongloop.\nSome others automation tools (like gulp) are required.\n\n\nnpm install -g cordova ionic strongloop grunt-cli gulp bower karma-cli phantomjs\n\n\n\n\nStart app components\n\n\n\n\nStart loopback REST api server\n\n\n\n\n$ git clone git@git.mikangali.com:lab-241/appbase-server\n$ cd appbase-server\n$ npm install\n$ grunt\n\n\n\n\nServer is running at \nhttp://localhost:3000\n\n\n\n\nStart ionic mobile app\n\n\n\n\n$ git clone git@git.mikangali.com:lab-241/appbase-client-ionic\n$ cd appbase-client-ionic\n$ bower install\n$ ionic serve --lab\n\n# Run ionic app on android\n\n$ ionic platform android\n$ ionic run android --livereload\n\n\n\n\nLinks\n\n\n\n\nProject website\n\n\nGithub repo\n\n\nSlides show", 
+            "title": "Getting Started"
+        }, 
+        {
+            "location": "/#getting-started-with-app-base", 
+            "text": "App Base is your production ready mobile app foundation.\nIts the result of two framworks combined to create a powerfull fullsatck js ecosystem.", 
+            "title": "Getting started with App Base"
+        }, 
+        {
+            "location": "/#app-base-projects", 
+            "text": "Need  Solution  AppBase repo      REST API  LoopBack Framework  Appbase server    Mobile App  Ionic Framework  Appbase ionic    Admin Dashboard  NG-admin  Appbase server", 
+            "title": "App Base projects"
+        }, 
+        {
+            "location": "/#development-quick-start", 
+            "text": "Prerequites   NodeJs   Install dev tools  App base is built on top of ionic (who use cordova) and strongloop.\nSome others automation tools (like gulp) are required.  npm install -g cordova ionic strongloop grunt-cli gulp bower karma-cli phantomjs  Start app components   Start loopback REST api server   $ git clone git@git.mikangali.com:lab-241/appbase-server\n$ cd appbase-server\n$ npm install\n$ grunt  Server is running at  http://localhost:3000   Start ionic mobile app   $ git clone git@git.mikangali.com:lab-241/appbase-client-ionic\n$ cd appbase-client-ionic\n$ bower install\n$ ionic serve --lab\n\n# Run ionic app on android\n\n$ ionic platform android\n$ ionic run android --livereload", 
+            "title": "Development quick start"
+        }, 
+        {
+            "location": "/#links", 
+            "text": "Project website  Github repo  Slides show", 
+            "title": "Links"
+        }, 
+        {
+            "location": "/server/install/", 
+            "text": "Mobile app installation", 
+            "title": "Install"
+        }, 
+        {
+            "location": "/server/install/#mobile-app-installation", 
+            "text": "", 
+            "title": "Mobile app installation"
+        }, 
+        {
+            "location": "/server/configure/", 
+            "text": "REST api server installation", 
+            "title": "Configure"
+        }, 
+        {
+            "location": "/server/configure/#rest-api-server-installation", 
+            "text": "", 
+            "title": "REST api server installation"
+        }, 
+        {
+            "location": "/ionic/install/", 
+            "text": "REST api server installation", 
+            "title": "Install"
+        }, 
+        {
+            "location": "/ionic/install/#rest-api-server-installation", 
+            "text": "", 
+            "title": "REST api server installation"
+        }, 
+        {
+            "location": "/ionic/configure/", 
+            "text": "mobile App configuration", 
+            "title": "Configure"
+        }, 
+        {
+            "location": "/ionic/configure/#mobile-app-configuration", 
+            "text": "", 
+            "title": "mobile App configuration"
+        }
+    ]
+}

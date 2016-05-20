@@ -1,0 +1,11 @@
+site_name: App Base
+dev_addr: 0.0.0.0:9001
+theme: flatly
+pages:
+- Getting Started: index.md
+- Server: 
+    - server/install.md
+    - server/configure.md
+- Ionic:
+    - ionic/install.md
+    - ionic/configure.md
