@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Getting started with App Base\n\n\nApp Base is your production ready mobile app foundation.\nIts the result of two framworks combined to create a powerfull fullsatck js ecosystem.\n\n\nApp Base projects\n\n\n\n\n\n\n\n\nNeed\n\n\nSolution\n\n\nAppBase repo\n\n\n\n\n\n\n\n\n\n\nREST API\n\n\nLoopBack Framework\n\n\nAppbase server\n\n\n\n\n\n\nMobile App\n\n\nIonic Framework\n\n\nAppbase ionic\n\n\n\n\n\n\nAdmin Dashboard\n\n\nNG-admin\n\n\nAppbase server\n\n\n\n\n\n\n\n\nDevelopment quick start\n\n\nPrerequites\n\n\n\n\nNodeJs\n\n\n\n\nInstall dev tools\n\n\nApp base is built on top of ionic (who use cordova) and strongloop.\nSome others automation tools (like gulp) are required.\n\n\nnpm install -g cordova ionic strongloop grunt-cli gulp bower karma-cli phantomjs\n\n\n\n\nStart app components\n\n\n\n\nStart loopback REST api server\n\n\n\n\n$ git clone git@git.mikangali.com:lab-241/appbase-server\n$ cd appbase-server\n$ npm install\n$ grunt\n\n\n\n\nServer is running at \nhttp://localhost:3000\n\n\n\n\nStart ionic mobile app\n\n\n\n\n$ git clone git@git.mikangali.com:lab-241/appbase-client-ionic\n$ cd appbase-client-ionic\n$ bower install\n$ ionic serve --lab\n\n# Run ionic app on android\n\n$ ionic platform android\n$ ionic run android --livereload\n\n\n\n\nLinks\n\n\n\n\nProject website\n\n\nGithub repo\n\n\nSlides show", 
+            "text": "Getting started with App Base\n\n\nApp Base is your production ready mobile app foundation.\nIts the result of two framworks combined to create a powerfull fullsatck js ecosystem.\n\n\nApp Base projects\n\n\n\n\n\n\n\n\nNeed\n\n\nSolution\n\n\nAppBase repo\n\n\n\n\n\n\n\n\n\n\nREST API\n\n\nLoopBack Framework\n\n\nAppbase server\n\n\n\n\n\n\nMobile App\n\n\nIonic Framework\n\n\nAppbase ionic\n\n\n\n\n\n\nAdmin Dashboard\n\n\nNG-admin\n\n\nAppbase server\n\n\n\n\n\n\n\n\nDevelopment quick start\n\n\nPrerequites\n\n\n\n\nNodeJs\n\n\n\n\nInstall dev tools\n\n\nApp base is built on top of ionic (who use cordova) and strongloop.\nSome others automation tools (like gulp) are required.\n\n\nnpm install -g cordova ionic strongloop grunt-cli gulp bower karma-cli phantomjs\n\n\n\n\nStart app components\n\n\n\n\nStart loopback REST api server\n\n\n\n\n$ git clone git@git.mikangali.com:lab-241/appbase-server\n$ cd appbase-server\n$ npm install\n$ grunt\n\n\n\n\nServer is running at \nhttp://localhost:3000\n\n\n\n\nStart ionic mobile app\n\n\n\n\n$ git clone git@git.mikangali.com:lab-241/appbase-client-ionic\n$ cd appbase-client-ionic\n$ npm install\n$ ionic serve --lab\n\n# Run ionic app on android\n\n$ ionic platform android\n$ ionic run android --livereload\n\n\n\n\nLinks\n\n\n\n\nProject website\n\n\nGithub repo\n\n\nSlides show", 
             "title": "Getting Started"
         }, 
         {
@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/#development-quick-start", 
-            "text": "Prerequites   NodeJs   Install dev tools  App base is built on top of ionic (who use cordova) and strongloop.\nSome others automation tools (like gulp) are required.  npm install -g cordova ionic strongloop grunt-cli gulp bower karma-cli phantomjs  Start app components   Start loopback REST api server   $ git clone git@git.mikangali.com:lab-241/appbase-server\n$ cd appbase-server\n$ npm install\n$ grunt  Server is running at  http://localhost:3000   Start ionic mobile app   $ git clone git@git.mikangali.com:lab-241/appbase-client-ionic\n$ cd appbase-client-ionic\n$ bower install\n$ ionic serve --lab\n\n# Run ionic app on android\n\n$ ionic platform android\n$ ionic run android --livereload", 
+            "text": "Prerequites   NodeJs   Install dev tools  App base is built on top of ionic (who use cordova) and strongloop.\nSome others automation tools (like gulp) are required.  npm install -g cordova ionic strongloop grunt-cli gulp bower karma-cli phantomjs  Start app components   Start loopback REST api server   $ git clone git@git.mikangali.com:lab-241/appbase-server\n$ cd appbase-server\n$ npm install\n$ grunt  Server is running at  http://localhost:3000   Start ionic mobile app   $ git clone git@git.mikangali.com:lab-241/appbase-client-ionic\n$ cd appbase-client-ionic\n$ npm install\n$ ionic serve --lab\n\n# Run ionic app on android\n\n$ ionic platform android\n$ ionic run android --livereload", 
             "title": "Development quick start"
         }, 
         {
@@ -27,43 +27,108 @@
         }, 
         {
             "location": "/server/install/", 
-            "text": "Mobile app installation", 
+            "text": "Appbase: server installation\n\n\nAppbase server is a \nloopback framwork\n project built to expose a REST API that appbase clients (like \nionic-client\n) will consumes.\n\n\nPre requistes\n\n\n\n\nNode.js\n and \nloopback framwork\n are required on your computer to start this project.\n\n\n\n\nDev tools install\n\n\nWhen \nNode.js\n is present on your environment just run following command to install Loopback.\n\n\n$ npm install -g strongloop grunt-cli\n\n\n\n\nGet + start appbase loopback server\n\n\n$ git clone git@git.mikangali.com:lab-241/appbase-server\n$ cd appbase-server\n$ npm install\n$ grunt serve\n\n\n\n\nServer is running at : \nhttp://localhost:3000\n\n\nAbout Loopback framework\n\n\nLoopback is a opensource Node.js API framework for building REST APIs for your client applications (browser, mobile, etc).\n\n\n\n\nFor more about Loopback projects, read official \ndoc", 
             "title": "Install"
         }, 
         {
-            "location": "/server/install/#mobile-app-installation", 
-            "text": "", 
-            "title": "Mobile app installation"
+            "location": "/server/install/#appbase-server-installation", 
+            "text": "Appbase server is a  loopback framwork  project built to expose a REST API that appbase clients (like  ionic-client ) will consumes.", 
+            "title": "Appbase: server installation"
+        }, 
+        {
+            "location": "/server/install/#pre-requistes", 
+            "text": "Node.js  and  loopback framwork  are required on your computer to start this project.", 
+            "title": "Pre requistes"
+        }, 
+        {
+            "location": "/server/install/#dev-tools-install", 
+            "text": "When  Node.js  is present on your environment just run following command to install Loopback.  $ npm install -g strongloop grunt-cli", 
+            "title": "Dev tools install"
+        }, 
+        {
+            "location": "/server/install/#get-start-appbase-loopback-server", 
+            "text": "$ git clone git@git.mikangali.com:lab-241/appbase-server\n$ cd appbase-server\n$ npm install\n$ grunt serve  Server is running at :  http://localhost:3000", 
+            "title": "Get + start appbase loopback server"
+        }, 
+        {
+            "location": "/server/install/#about-loopback-framework", 
+            "text": "Loopback is a opensource Node.js API framework for building REST APIs for your client applications (browser, mobile, etc).   For more about Loopback projects, read official  doc", 
+            "title": "About Loopback framework"
         }, 
         {
             "location": "/server/configure/", 
-            "text": "REST api server installation", 
+            "text": "REST api server configuration", 
             "title": "Configure"
         }, 
         {
-            "location": "/server/configure/#rest-api-server-installation", 
+            "location": "/server/configure/#rest-api-server-configuration", 
             "text": "", 
-            "title": "REST api server installation"
+            "title": "REST api server configuration"
         }, 
         {
             "location": "/ionic/install/", 
-            "text": "REST api server installation", 
+            "text": "Appbase : Ionic mobile client installation\n\n\nAppbase \nmobile client\n is a \nionic framwork\n project built to work with the \nappbase-server\n project. This mobile client consumes the \nappbase-server\n REST api.\n\n\nPre requistes\n\n\n\n\nNode.js\n, Cordova and \nIonic-cli\n are required on your computer to start this project.\n\n\n\n\nDev tools install\n\n\nWhen \nNode.js\n is present on your environment just run following command to install appbase-ionic dev requirements.\n\n\n$ npm install -g cordova ionic grunt-cli gulp bower karma-cli phantomjs\n\n\n\n\nCAUTION\n : Before start the client, you must ensure that server is up and running. Read \ninstall server tutorial\n for instructions.\n\n\nGet + start appbase ionic\n\n\n$ git clone git@git.mikangali.com:lab-241/appbase-client-ionic\n$ cd appbase-client-ionic\n$ npm install\n$ ionic serve --lab\n\n\n\n\nRun ionic app on android device/emulator\n\n\n$ ionic platform android\n$ ionic run android --livereload\n\n\n\n\nAbout Ionic framework\n\n\nIonic is an open source mobile SDK for developing cross-platfom\n\n\n\n\nFor more about ionic projects, read official \ndoc\n.", 
             "title": "Install"
         }, 
         {
-            "location": "/ionic/install/#rest-api-server-installation", 
-            "text": "", 
-            "title": "REST api server installation"
+            "location": "/ionic/install/#appbase-ionic-mobile-client-installation", 
+            "text": "Appbase  mobile client  is a  ionic framwork  project built to work with the  appbase-server  project. This mobile client consumes the  appbase-server  REST api.", 
+            "title": "Appbase : Ionic mobile client installation"
+        }, 
+        {
+            "location": "/ionic/install/#pre-requistes", 
+            "text": "Node.js , Cordova and  Ionic-cli  are required on your computer to start this project.", 
+            "title": "Pre requistes"
+        }, 
+        {
+            "location": "/ionic/install/#dev-tools-install", 
+            "text": "When  Node.js  is present on your environment just run following command to install appbase-ionic dev requirements.  $ npm install -g cordova ionic grunt-cli gulp bower karma-cli phantomjs  CAUTION  : Before start the client, you must ensure that server is up and running. Read  install server tutorial  for instructions.", 
+            "title": "Dev tools install"
+        }, 
+        {
+            "location": "/ionic/install/#get-start-appbase-ionic", 
+            "text": "$ git clone git@git.mikangali.com:lab-241/appbase-client-ionic\n$ cd appbase-client-ionic\n$ npm install\n$ ionic serve --lab", 
+            "title": "Get + start appbase ionic"
+        }, 
+        {
+            "location": "/ionic/install/#run-ionic-app-on-android-deviceemulator", 
+            "text": "$ ionic platform android\n$ ionic run android --livereload", 
+            "title": "Run ionic app on android device/emulator"
+        }, 
+        {
+            "location": "/ionic/install/#about-ionic-framework", 
+            "text": "Ionic is an open source mobile SDK for developing cross-platfom   For more about ionic projects, read official  doc .", 
+            "title": "About Ionic framework"
         }, 
         {
             "location": "/ionic/configure/", 
-            "text": "mobile App configuration", 
+            "text": "Ionic mobile app configuration\n\n\nIn this section we wille lear how to setup appbase ionic conf.\nThe main config file is located at \nwww/app/conf/ConfParams.js\n.\n\n\nSetup api endpoint\n\n\nThat config make the link between the mobile app and the REST api.\n\n\nManually\n\n\nEdit \nwww/app/conf/ConfParams.js\n and change the value of \nAPI_ENDPOINT\n constant.\n\n\nUsing grunt\n\n\nThe default grunt task can be used to edit \nConfParams.js\n via env vars.\nIt use \nngconstant\n grunt plugin to edit de conf file.\n\n\nExample\n\n\nexport API_ENDPOINT=http://your-server-with-appbase.org/api \ngrunt \n ionic serve --lab", 
             "title": "Configure"
         }, 
         {
-            "location": "/ionic/configure/#mobile-app-configuration", 
-            "text": "", 
-            "title": "mobile App configuration"
+            "location": "/ionic/configure/#ionic-mobile-app-configuration", 
+            "text": "In this section we wille lear how to setup appbase ionic conf.\nThe main config file is located at  www/app/conf/ConfParams.js .", 
+            "title": "Ionic mobile app configuration"
+        }, 
+        {
+            "location": "/ionic/configure/#setup-api-endpoint", 
+            "text": "That config make the link between the mobile app and the REST api.", 
+            "title": "Setup api endpoint"
+        }, 
+        {
+            "location": "/ionic/configure/#manually", 
+            "text": "Edit  www/app/conf/ConfParams.js  and change the value of  API_ENDPOINT  constant.", 
+            "title": "Manually"
+        }, 
+        {
+            "location": "/ionic/configure/#using-grunt", 
+            "text": "The default grunt task can be used to edit  ConfParams.js  via env vars.\nIt use  ngconstant  grunt plugin to edit de conf file.", 
+            "title": "Using grunt"
+        }, 
+        {
+            "location": "/ionic/configure/#example", 
+            "text": "export API_ENDPOINT=http://your-server-with-appbase.org/api \ngrunt   ionic serve --lab", 
+            "title": "Example"
         }
     ]
 }

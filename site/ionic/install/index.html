@@ -126,14 +126,55 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#rest-api-server-installation">REST api server installation</a></li>
+        <li class="main active"><a href="#appbase-ionic-mobile-client-installation">Appbase : Ionic mobile client installation</a></li>
+        
+    
+        <li class="main "><a href="#pre-requistes">Pre requistes</a></li>
+        
+    
+        <li class="main "><a href="#dev-tools-install">Dev tools install</a></li>
+        
+    
+        <li class="main "><a href="#get-start-appbase-ionic">Get + start appbase ionic</a></li>
+        
+    
+        <li class="main "><a href="#run-ionic-app-on-android-deviceemulator">Run ionic app on android device/emulator</a></li>
+        
+            <li><a href="#about-ionic-framework">About Ionic framework</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h3 id="rest-api-server-installation">REST api server installation</h3></div>
+<h3 id="appbase-ionic-mobile-client-installation">Appbase : Ionic mobile client installation</h3>
+<p>Appbase <strong>mobile client</strong> is a <a href="http://ionicframework.com">ionic framwork</a> project built to work with the <a href="https://github.com/lab-241/appbase-server">appbase-server</a> project. This mobile client consumes the <a href="https://github.com/lab-241/appbase-server">appbase-server</a> REST api.</p>
+<h2 id="pre-requistes">Pre requistes</h2>
+<ul>
+<li><a href="http://nodejs.org">Node.js</a>, Cordova and <a href="https://npmjs.org/package/ionic">Ionic-cli</a> are required on your computer to start this project.</li>
+</ul>
+<h2 id="dev-tools-install">Dev tools install</h2>
+<p>When <a href="http://nodejs.org">Node.js</a> is present on your environment just run following command to install appbase-ionic dev requirements.</p>
+<pre><code>$ npm install -g cordova ionic grunt-cli gulp bower karma-cli phantomjs
+</code></pre>
+
+<p><strong>CAUTION</strong> : Before start the client, you must ensure that server is up and running. Read <a href="../../server/install/">install server tutorial</a> for instructions.</p>
+<h2 id="get-start-appbase-ionic">Get + start appbase ionic</h2>
+<pre><code>$ git clone git@git.mikangali.com:lab-241/appbase-client-ionic
+$ cd appbase-client-ionic
+$ npm install
+$ ionic serve --lab
+</code></pre>
+
+<h2 id="run-ionic-app-on-android-deviceemulator">Run ionic app on android device/emulator</h2>
+<pre><code>$ ionic platform android
+$ ionic run android --livereload
+</code></pre>
+
+<h3 id="about-ionic-framework">About Ionic framework</h3>
+<p>Ionic is an open source mobile SDK for developing cross-platfom</p>
+<p><img alt="" src="../../img/ionic-logo.png" /></p>
+<p>For more about ionic projects, read official <a href="http://ionicframework.com/getting-started/">doc</a>.</p></div>
         </div>
 
         <footer class="col-md-12">

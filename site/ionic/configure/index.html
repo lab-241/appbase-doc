@@ -126,14 +126,36 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#mobile-app-configuration">mobile App configuration</a></li>
+        <li class="main active"><a href="#ionic-mobile-app-configuration">Ionic mobile app configuration</a></li>
+        
+    
+        <li class="main "><a href="#setup-api-endpoint">Setup api endpoint</a></li>
+        
+            <li><a href="#manually">Manually</a></li>
+        
+            <li><a href="#using-grunt">Using grunt</a></li>
+        
+            <li><a href="#example">Example</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h3 id="mobile-app-configuration">mobile App configuration</h3></div>
+<h2 id="ionic-mobile-app-configuration">Ionic mobile app configuration</h2>
+<p>In this section we wille lear how to setup appbase ionic conf.
+The main config file is located at <code>www/app/conf/ConfParams.js</code>.</p>
+<h2 id="setup-api-endpoint">Setup api endpoint</h2>
+<p>That config make the link between the mobile app and the REST api.</p>
+<h3 id="manually">Manually</h3>
+<p>Edit <code>www/app/conf/ConfParams.js</code> and change the value of <code>API_ENDPOINT</code> constant.</p>
+<h3 id="using-grunt">Using grunt</h3>
+<p>The default grunt task can be used to edit <code>ConfParams.js</code> via env vars.
+It use <a href="https://github.com/werk85/grunt-ng-constant">ngconstant</a> grunt plugin to edit de conf file.</p>
+<h3 id="example">Example</h3>
+<pre><code>export API_ENDPOINT=http://your-server-with-appbase.org/api 
+grunt &amp;&amp; ionic serve --lab
+</code></pre></div>
         </div>
 
         <footer class="col-md-12">

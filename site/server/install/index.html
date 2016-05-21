@@ -126,14 +126,44 @@
             <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#mobile-app-installation">Mobile app installation</a></li>
+        <li class="main active"><a href="#appbase-server-installation">Appbase: server installation</a></li>
+        
+            <li><a href="#pre-requistes">Pre requistes</a></li>
+        
+            <li><a href="#dev-tools-install">Dev tools install</a></li>
+        
+            <li><a href="#get-start-appbase-loopback-server">Get + start appbase loopback server</a></li>
+        
+            <li><a href="#about-loopback-framework">About Loopback framework</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h3 id="mobile-app-installation">Mobile app installation</h3></div>
+<h2 id="appbase-server-installation">Appbase: server installation</h2>
+<p>Appbase server is a <a href="http://loopback.io">loopback framwork</a> project built to expose a REST API that appbase clients (like <a href="https://github.com/lab-241/appbase-client-ionic">ionic-client</a>) will consumes.</p>
+<h3 id="pre-requistes">Pre requistes</h3>
+<ul>
+<li><a href="http://nodejs.org">Node.js</a> and <a href="http://loopback.io">loopback framwork</a> are required on your computer to start this project.</li>
+</ul>
+<h3 id="dev-tools-install">Dev tools install</h3>
+<p>When <a href="http://nodejs.org">Node.js</a> is present on your environment just run following command to install Loopback.</p>
+<pre><code>$ npm install -g strongloop grunt-cli
+</code></pre>
+
+<h3 id="get-start-appbase-loopback-server">Get + start appbase loopback server</h3>
+<pre><code>$ git clone git@git.mikangali.com:lab-241/appbase-server
+$ cd appbase-server
+$ npm install
+$ grunt serve
+</code></pre>
+
+<p>Server is running at : <a href="http://localhost:3000">http://localhost:3000</a></p>
+<h3 id="about-loopback-framework">About Loopback framework</h3>
+<p>Loopback is a opensource Node.js API framework for building REST APIs for your client applications (browser, mobile, etc).</p>
+<p><img alt="" src="../../img/powered-by-LB-logo.png" /></p>
+<p>For more about Loopback projects, read official <a href="http://loopback.io/getting-started/">doc</a></p></div>
         </div>
 
         <footer class="col-md-12">
