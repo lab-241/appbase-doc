@@ -44,7 +44,7 @@ Server is running at `http://localhost:3000`
 ```
 $ git clone git@git.mikangali.com:lab-241/appbase-client-ionic
 $ cd appbase-client-ionic
-$ bower install
+$ npm install
 $ ionic serve --lab
 
 # Run ionic app on android

@@ -1,1 +1,1 @@
-### REST api server installation
+### REST api server configuration
